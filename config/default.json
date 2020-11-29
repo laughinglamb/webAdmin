@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://laughinglamb:laughinglamb@webadmin.mpvoi.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://laughinglamb:laughinglamb@webadmin.mpvoi.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
 }
