@@ -35,5 +35,17 @@
   "devDependencies": {
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.6"
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "src/**/*.stories.js"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
   }
 }

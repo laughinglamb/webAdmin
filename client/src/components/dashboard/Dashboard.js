@@ -12,7 +12,7 @@ const Dashboard = ({
     const { name, role } = user; 
     useEffect(() => {
         getCurrentProfile();
-    }, []);
+    });
 
     if (role === 'none') {
         return (
